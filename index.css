@@ -268,3 +268,86 @@ h4 {
 .by-photo-text h4 {
   margin-bottom: 40px;
 }
+
+.woman-chapter {
+  display: flex;
+}
+
+.woman-chapter h2 {
+  color: #2e363e;
+  margin-bottom: 36px;
+}
+
+.woman-chapter ul {
+  list-style: none;
+  width: 440px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.woman-chapter ul li p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2e363e;
+}
+
+.woman-chapter li {
+  display: grid;
+  grid-template-columns: 10px 1fr;
+  grid-gap: 12px;
+  margin-bottom: 30px;
+}
+
+.li-marker {
+  width: 10px;
+  height: 10px;
+  background-color: #5d6afb;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.tilted-block {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 530px;
+  left: -90px;
+}
+
+.tilted-block div {
+  padding: 15px 24px;
+  display: block;
+  transform: skewX(-8deg);
+  border-radius: 5px;
+}
+
+.tilted-block p {
+  transform: skewX(8deg);
+}
+
+.black-tilted-block {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  background-color: #2e363e;
+}
+
+.white-tilted-block {
+  background-color: #f2f6fa;
+  display: inline-block !important;
+  margin-left: -15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2e363e;
+}
+
+.woman-chapter-text {
+  width: 580px;
+}
