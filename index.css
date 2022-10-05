@@ -32,6 +32,7 @@ button:active {
 
 h2,
 h3,
+h4,
 p {
   padding: 0;
   margin: 0;
@@ -44,9 +45,11 @@ h3 {
 }
 
 h2 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: #fff;
 }
 
 h1 {
@@ -54,6 +57,14 @@ h1 {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: -1px;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
 }
 
 .main-chapter {
@@ -70,6 +81,12 @@ h1 {
   justify-content: space-between;
   height: 120px;
   vertical-align: middle;
+}
+
+.header-info h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header h3 {
@@ -164,10 +181,6 @@ h1 {
 }
 
 .cards-chapter .cards-tittle {
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 60px;
-  letter-spacing: -1px;
   color: #2e363e;
   text-align: center;
   margin-bottom: 80px;
@@ -226,4 +239,32 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+}
+
+.by-photo-chapter {
+  background: #081130;
+  position: relative;
+}
+
+.by-photo-center {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.by-photo-content {
+  display: flex;
+}
+
+.by-photo-text {
+  width: 480px;
+  margin-top: 109px;
+  margin-left: 84px;
+}
+
+.by-photo-text h2 {
+  margin-bottom: 24px;
+}
+
+.by-photo-text h4 {
+  margin-bottom: 40px;
 }
