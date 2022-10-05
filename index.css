@@ -246,7 +246,7 @@ h4 {
   position: relative;
 }
 
-.by-photo-center {
+.big-content-center {
   width: 1920px;
   margin: 0 auto;
 }
@@ -350,4 +350,101 @@ h4 {
 
 .woman-chapter-text {
   width: 580px;
+}
+
+.reviews-chapter {
+  background-color: #081130;
+}
+
+.review-block {
+  padding: 70px 143px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 2px solid #e2eaf2;
+  box-shadow: 2px 8px 16px rgba(194, 198, 208, 0.06);
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.review-block h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 43px;
+  color: #2e363e;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.review-text {
+  width: 430px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #2e363e;
+}
+
+.review-author img {
+  width: 380px;
+  height: 380px;
+  border: 1px solid #f2f6fa;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.review-author h4 {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  color: #2e363e;
+}
+
+.review-author p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #a6aeb6;
+}
+
+.swipe-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.swipe-buttons div {
+  background: #fed84c;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.1s ease-in-out;
+  /* unsellectable text */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.swipe-buttons div:hover {
+  background: #ffdd60;
+}
+
+.swipe-buttons div:active {
+  background: #fdd133;
+}
+
+.swipe-buttons div img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
 }
