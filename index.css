@@ -356,8 +356,14 @@ h4 {
   background-color: #081130;
 }
 
-.review-block {
+.review-slider-track {
+  display: flex;
+  transition: 0.7s ease-in-out;
+}
+
+.review-slider-item {
   padding: 70px 143px;
+  opacity: 0.1;
   background-color: #fff;
   box-sizing: border-box;
   border: 2px solid #e2eaf2;
@@ -365,9 +371,11 @@ h4 {
   border-radius: 5px;
   display: flex;
   margin-bottom: 70px;
+  scale: 0.8;
+  transition: 0.7s ease-in-out;
 }
 
-.review-block h3 {
+.review-slider-item h3 {
   font-weight: 500;
   font-size: 30px;
   line-height: 43px;
@@ -428,8 +436,7 @@ h4 {
   -khtml-user-select: none; /* Konqueror */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-                                  not supported by any browser */
+  user-select: none; /* Non-prefixed version, currently not supported by any browser */
 }
 
 .swipe-buttons div:hover {
