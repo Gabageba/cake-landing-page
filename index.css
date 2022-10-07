@@ -477,3 +477,86 @@ h4 {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 9px;
 }
+
+.make-orders-chapter {
+  background: #010612;
+}
+
+.make-orders-form {
+  padding: 70px 99px;
+  background: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.make-orders-form h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #2e363e;
+  margin-bottom: 12px;
+}
+.make-orders-form h4 {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+  color: #2e363e;
+  margin-bottom: 30px;
+}
+
+.enter-phone {
+  margin-bottom: 24px;
+}
+
+.enter-phone .phone-input {
+  width: 322px;
+  height: 85px;
+  background: #f2f6fa;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding-left: 58px;
+  background: url('assets/order-phone.svg') no-repeat, #f2f6fa;
+  background-position: 32px center;
+  margin-right: 20px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #7e868e;
+}
+
+.enter-phone button {
+  padding: 29px 124px;
+}
+
+.privacy-policy {
+  display: flex;
+  justify-content: center;
+}
+
+.privacy-policy .privacy-policy-checkbox {
+  margin-right: 7px;
+}
+
+.footer {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #7e868e;
+  padding-bottom: 80px;
+}
+
+.footer-links {
+  margin-bottom: 22px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #7e868e;
+  margin-left: 43px;
+}
