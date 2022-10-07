@@ -134,6 +134,7 @@ h4 {
 .content-center {
   max-width: 1180px;
   margin: 0 auto;
+  position: relative;
 }
 
 .main-block {
@@ -174,10 +175,12 @@ h4 {
 
 .leaf-berry-container img {
   position: absolute;
+  z-index: 1;
 }
 
 .cards-chapter {
   background: #fff;
+  position: relative;
 }
 
 .cards-chapter .cards-tittle {
@@ -195,6 +198,8 @@ h4 {
   border: 1px solid #f2f6fa;
   box-sizing: border-box;
   overflow: hidden;
+  z-index: 2;
+  background: #fff;
 }
 
 .card img {
@@ -253,6 +258,7 @@ h4 {
 
 .by-photo-content {
   display: flex;
+  position: relative;
 }
 
 .by-photo-text {
@@ -373,6 +379,7 @@ h4 {
   margin-bottom: 70px;
   scale: 0.8;
   transition: 0.7s ease-in-out;
+  z-index: 2;
 }
 
 .review-slider-item h3 {
@@ -479,7 +486,7 @@ h4 {
 }
 
 .make-orders-chapter {
-  background: #010612;
+  background: #081130;
 }
 
 .make-orders-form {
@@ -529,6 +536,15 @@ h4 {
   color: #7e868e;
 }
 
+.phone-input::-webkit-outer-spin-button,
+.phone-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.phone-input[type='number'] {
+  -moz-appearance: textfield;
+}
+
 .enter-phone button {
   padding: 29px 124px;
 }
@@ -540,6 +556,7 @@ h4 {
 
 .privacy-policy .privacy-policy-checkbox {
   margin-right: 7px;
+  cursor: pointer;
 }
 
 .footer {

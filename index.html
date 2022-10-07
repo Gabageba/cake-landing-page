@@ -60,11 +60,13 @@
           />
           <img
             style="width: 195px; height: 201px; left: -405px; top: 120px; transform: rotate(-45deg)"
+            class="berry"
             src="./assets//berry.png"
             alt="berry"
           />
           <img
             style="width: 170px; height: 175px; left: 1420px; top: -15px; transform: rotate(28deg)"
+            class="berry"
             src="./assets//berry.png"
             alt="berry"
           />
@@ -76,6 +78,7 @@
               top: 760px;
               transform: rotate(-148deg);
             "
+            class="berry"
             src="./assets//berry.png"
             alt="berry"
           />
@@ -168,6 +171,44 @@
             </div>
           </div>
         </div>
+        <div class="leaf-berry-container">
+          <img
+            style="
+              width: 161px;
+              height: 167px;
+              left: 1120px;
+              top: 1075px;
+              transform: rotate(335deg);
+              filter: blur(8px);
+            "
+            src="./assets/leaf.png"
+            alt="leaf"
+          />
+          <img
+            style="
+              width: 170px;
+              height: 174px;
+              left: -120px;
+              top: 140px;
+              transform: rotate(-65deg);
+              filter: blur(6.5px);
+            "
+            src="./assets//berry.png"
+            alt="berry"
+          />
+          <img
+            style="
+              width: 108px;
+              height: 113px;
+              left: -75px;
+              top: 1403px;
+              transform: rotate(70deg);
+              filter: blur(8px); ;
+            "
+            src="./assets/leaf.png"
+            alt="leaf"
+          />
+        </div>
       </div>
     </div>
     <div class="by-photo-chapter">
@@ -181,6 +222,34 @@
             <h4>Загрузите фотографию или эскиз капкейков и мы рассчитаем стоимость за 30 минут</h4>
             <button>Загрузить фотографию</button>
           </span>
+          <div class="leaf-berry-container">
+            <img
+              style="
+                width: 110px;
+                height: 114px;
+                left: 320px;
+                top: 90px;
+                filter: blur(8px);
+                transform: rotate(250deg);
+              "
+              class="leaf"
+              src="./assets/leaf.png"
+              alt="leaf"
+            />
+            <img
+              style="
+                width: 152px;
+                height: 156px;
+                left: 1520px;
+                top: 30px;
+                transform: rotate(-140deg);
+                filter: blur(6.5px);
+              "
+              class="berry"
+              src="./assets//berry.png"
+              alt="berry"
+            />
+          </div>
         </div>
         <img style="position: absolute; bottom: 0" src="./assets/fog/big-fog-up.png" alt="" />
       </div>
@@ -206,7 +275,7 @@
           </ul>
           <button>Задать вопрос Юлии</button>
         </div>
-        <div style="position: relative">
+        <div style="position: relative; z-index: 2">
           <div class="tilted-block">
             <div class="black-tilted-block"><p>Юлия Кондратьева</p></div>
             <div class="white-tilted-block">
@@ -214,6 +283,60 @@
             </div>
           </div>
           <img src="./assets/woman.png" alt="woman" />
+        </div>
+        <div class="leaf-berry-container">
+          <img
+            style="
+              width: 190px;
+              height: 198px;
+              left: 920px;
+              top: 150px;
+              filter: blur(4px);
+              transform: rotate(300deg);
+            "
+            class="leaf"
+            src="./assets/leaf.png"
+            alt="leaf"
+          />
+          <img
+            style="
+              width: 190px;
+              height: 198px;
+              left: 940px;
+              top: 152px;
+              filter: blur(4px);
+              transform: rotate(315deg);
+            "
+            class="leaf"
+            src="./assets/leaf.png"
+            alt="leaf"
+          />
+          <img
+            style="
+              width: 190px;
+              height: 198px;
+              left: 960px;
+              top: 180px;
+              filter: blur(4px);
+              transform: rotate(330deg);
+            "
+            class="leaf"
+            src="./assets/leaf.png"
+            alt="leaf"
+          />
+          <img
+            style="
+              width: 159px;
+              height: 163px;
+              left: 610px;
+              top: 165px;
+              transform: rotate(-53deg);
+              filter: blur(6.5px);
+            "
+            class="berry"
+            src="./assets//berry.png"
+            alt="berry"
+          />
         </div>
       </div>
     </div>
@@ -304,6 +427,21 @@
               <img src="./assets/swipe-right.svg" alt="right" />
             </div>
           </div>
+          <div class="leaf-berry-container">
+            <img
+              style="
+                width: 127px;
+                height: 132px;
+                left: -170px;
+                top: 5px;
+                filter: blur(8px);
+                transform: rotate(220deg);
+              "
+              class="leaf"
+              src="./assets/leaf.png"
+              alt="leaf"
+            />
+          </div>
         </div>
         <img style="margin-bottom: -4px" src="./assets/fog/fog-up.png" alt="fog" />
       </div>
@@ -334,8 +472,8 @@
           <h3>Чтобы сделать заказ, укажите ваш телефон</h3>
           <h4>Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания</h4>
           <div class="enter-phone">
-            <input class="phone-input" type="text" placeholder="Номер телефона" />
-            <button>Сделать заказ</button>
+            <input class="phone-input" type="number" placeholder="Номер телефона" />
+            <button class="make-order-button">Сделать заказ</button>
           </div>
           <div class="privacy-policy">
             <input type="checkbox" class="privacy-policy-checkbox" />
@@ -358,5 +496,7 @@
       </div>
     </div>
     <script src="./scripts/scroll-review-script.js"></script>
+    <script src="./scripts/make-orders-script.js"></script>
+    <script src="./scripts/scroll-script.js"></script>
   </body>
 </html>
